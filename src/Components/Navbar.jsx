@@ -1,12 +1,7 @@
 import { NavLink } from "react-router-dom";
 import {
   Box,
-  List,
   Flex,
-  ListItem,
-  Input,
-  InputGroup,
-  Spacer,
   IconButton,
   HStack,
   useColorMode,

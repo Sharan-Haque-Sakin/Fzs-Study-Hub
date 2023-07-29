@@ -16,7 +16,7 @@ export default function SecondPart() {
   const click = () => {
     toast({
       title: "Message!",
-      description: "This page is currently under developement! Scrollmorh",
+      description: "This page is currently under developement!",
       status: "info",
       duration: 9000,
       isClosable: true,

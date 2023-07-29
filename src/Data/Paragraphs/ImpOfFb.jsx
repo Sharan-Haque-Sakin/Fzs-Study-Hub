@@ -4,7 +4,7 @@ export default function ImpOfFb() {
   return (
     <Box pb="4rem">
       <Container>
-        <Heading py="3rem">Google</Heading>
+        <Heading py="3rem">Impacts of Facebook</Heading>
         <p>
           Facebook is a social networking site that was launched in 2004 by Mark
           Zuckerberg. It has had a significant impact on society, with over 2.8
