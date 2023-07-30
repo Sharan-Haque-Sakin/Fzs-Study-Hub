@@ -1,0 +1,18 @@
+{
+  "Available": {
+    "Paragraphs": [
+      {
+        "name": "Google",
+        "path": "/google"
+      },
+      {
+        "name": "Impacts of Facebook",
+        "path": "/impactsoffb"
+      },
+      {
+        "name": "A wedding ceremony you have attended",
+        "path": "/aweddingceremonyyouhaveattended"
+      }
+    ]
+  }
+}

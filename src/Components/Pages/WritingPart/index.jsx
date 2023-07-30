@@ -13,13 +13,14 @@ import dataFirst from "../../../Data/EnglishFirst.json";
 
 import dataSecond from "../../../Data/EnglishFirst.json";
 import FirstPaper from "./FirstPaper";
+import SecondPart from "./SecondPaper";
 export default function WritingPart() {
   return (
     <Box clasName="writtingPartContainer">
       <Flex flexDir="row" justifyContent="center">
         <Tabs position="relative" variant="unstyled">
           <TabList>
-            <Tab>First Paper</Tab>
+            {/* <Tab>First Paper</Tab> */}
             <Tab>Second Paper</Tab>
           </TabList>
           <TabIndicator
@@ -29,11 +30,11 @@ export default function WritingPart() {
             borderRadius="1px"
           />
           <TabPanels>
-            <TabPanel>
+            {/* <TabPanel>
               <FirstPaper />
-            </TabPanel>
+            </TabPanel> */}
             <TabPanel>
-              <p>two!</p>
+              <SecondPart />
             </TabPanel>
           </TabPanels>
         </Tabs>

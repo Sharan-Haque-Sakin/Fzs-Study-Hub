@@ -14,7 +14,7 @@ export default function Navbar() {
 
   const Nav = [
     { name: "Home", path: "/" },
-    // { name: "Writing-Part", path: "/writingpart" },
+    { name: "Writing-Part", path: "/writingpart" },
     // { name: "Grammer-Part", path: "/grammerpart" },
     { name: "About", path: "/about" },
   ];

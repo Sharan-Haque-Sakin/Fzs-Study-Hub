@@ -36,7 +36,7 @@ export const MobileNav = () => {
 
   const Nav = [
     { name: "Home", path: "/" },
-    // { name: "Writing-Part", path: "/writingpart" },
+    { name: "Writing-Part", path: "/writingpart" },
     // { name: "Grammer-Part", path: "/grammerpart" },
     { name: "About", path: "/about" },
   ];
@@ -93,7 +93,12 @@ export const MobileNav = () => {
               </LightMode>
               {Nav.map((item, key) => {
                 return (
-                  <NavLink to={`${item.path}`} style={NavStyle} key={key}>
+                  <NavLink
+                    onClick={onClose}
+                    to={`${item.path}`}
+                    style={NavStyle}
+                    key={key}
+                  >
                     {item.name}
                   </NavLink>
                 );

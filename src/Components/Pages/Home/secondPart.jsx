@@ -13,15 +13,15 @@ const style = {
 };
 export default function SecondPart() {
   const toast = useToast();
-  const click = () => {
-    toast({
-      title: "Message!",
-      description: "This page is currently under developement!",
-      status: "info",
-      duration: 9000,
-      isClosable: true,
-    });
-  };
+  // const click = () => {
+  //   toast({
+  //     title: "Message!",
+  //     description: "This page is currently under developement!",
+  //     status: "info",
+  //     duration: 9000,
+  //     isClosable: true,
+  //   });
+  // };
   return (
     <div className="secondPart">
       <h2 style={{ marginBottom: "6rem", textAlign: "center" }}>
@@ -37,7 +37,7 @@ export default function SecondPart() {
       >
         <div style={{ scale: "2" }}>
           <Card>
-            <CardBody onClick={click}>
+            <CardBody>
               <Link to="">Writing Part</Link>{" "}
             </CardBody>
           </Card>
