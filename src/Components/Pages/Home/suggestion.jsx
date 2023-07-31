@@ -23,7 +23,7 @@ const Suggestions = ({ title }) => {
           return (
             <ListItem>
               <Link
-                style={{ color: "Blue", fontSize: "1.5rem" }}
+                style={{ color: "#3182ce", fontSize: "1.5rem" }}
                 to={item.path}
               >
                 {item.name}

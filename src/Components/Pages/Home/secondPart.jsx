@@ -38,7 +38,12 @@ export default function SecondPart() {
         <div style={{ scale: "2" }}>
           <Card>
             <CardBody>
-              <Link to="">Writing Part</Link>{" "}
+              <Link
+                to="/writingpart"
+                style={{ color: "#3182ce", textDecoration: "underline" }}
+              >
+                Writing Part
+              </Link>{" "}
             </CardBody>
           </Card>
         </div>
