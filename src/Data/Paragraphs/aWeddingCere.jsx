@@ -4,18 +4,20 @@ export default function AWddingCeremony() {
   return (
     <Box pb="4rem">
       <Container>
-        <Heading py="3rem">Google</Heading>
+        <Heading py="3rem">A wedding ceremony</Heading>
       </Container>
       <div>
         <p>
           <i>
-            Here contain nearly of 450 words...You don't have to remember all...
-            It's a simple paragraph, you can cut to 4 pages while you write{" "}
-            <br />
-            Gave this for you to write a lot in the exam! Cheers!
+            ( Here contain nearly of 450 words...You don't have to remember
+            all... It's a simple paragraph, you can cut to 4 pages while you
+            write <br />
+            Gave this for you to write a lot in the exam! Cheers! )
           </i>
         </p>
       </div>
+      <br />
+      <br />
       <p>
         Recently, I had the joy of attending my elder sister's wedding, and it
         was an amazing experience that I will never forget. The wedding took

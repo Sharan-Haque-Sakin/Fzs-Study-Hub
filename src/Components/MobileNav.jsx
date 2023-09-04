@@ -55,6 +55,13 @@ export const MobileNav = () => {
       <Flex justifyContent="space-between" w="100%">
         <img src={Logo} alt="logo" style={{ width: "4rem", margin: "auto" }} />
         <Spacer />
+        <IconButton
+          onClick={toggleColorMode}
+          colorScheme={colorMode === "dark" ? "orange" : "purple"}
+          style={{ marginRight: "1rem" }}
+        >
+          {colorMode === "dark" ? <SunIcon /> : <MoonIcon />}
+        </IconButton>
         <IconButton onClick={onOpen} ref={btnRef}>
           <HamburgerIcon />
         </IconButton>
@@ -67,12 +74,6 @@ export const MobileNav = () => {
           <DrawerHeader borderBottomWidth="1px">FZS Study Hub</DrawerHeader>
           <DrawerBody>
             <HStack gap="1.2rem" flexDir="column">
-              <IconButton
-                onClick={toggleColorMode}
-                colorScheme={colorMode === "dark" ? "orange" : "purple"}
-              >
-                {colorMode === "dark" ? <SunIcon /> : <MoonIcon />}
-              </IconButton>
               <LightMode>
                 {/* <InputGroup w="14rem">
                   <Input

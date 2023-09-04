@@ -29,7 +29,8 @@ const Footer = () => {
           <span>
             <a
               style={{ color: "aqua" }}
-              href="https://github.com/Sharan-Haque-Sakin"
+              href="https://shsakin.netlify.app"
+              target="_blank"
             >
               @sharanhaquesakin
             </a>

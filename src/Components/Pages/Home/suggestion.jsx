@@ -3,11 +3,9 @@ import "../../Comp.css";
 
 import data from "../../../Data/Suggest.json";
 import { Link } from "react-router-dom";
-const Suggestions = ({ title }) => {
+const Suggestions = () => {
   return (
     <Box className="thirdPart">
-      <h2 style={{ marginTop: "5rem" }}>Here are some suggetions for you:-</h2>
-
       <h3
         style={{
           fontSize: "2rem",
@@ -16,7 +14,7 @@ const Suggestions = ({ title }) => {
           marginBottom: "2rem",
         }}
       >
-        {title}
+        Second Paper
       </h3>
       <UnorderedList>
         {data.EnglishSecondPaper.Paragraphs.map((item, key) => {
@@ -27,6 +25,31 @@ const Suggestions = ({ title }) => {
                 to={item.path}
               >
                 {item.name}
+              </Link>
+            </ListItem>
+          );
+        })}
+      </UnorderedList>
+      <h3
+        style={{
+          fontSize: "1.5rem",
+          marginLeft: "1rem",
+          fontWeight: "bold",
+          marginTop: "1rem",
+          marginBottom: "2rem",
+        }}
+      >
+        Compositions
+      </h3>
+      <UnorderedList>
+        {data.EnglishSecondPaper.Compositons.map((items, key) => {
+          return (
+            <ListItem>
+              <Link
+                style={{ color: "#3182ce", fontSize: "1.5rem" }}
+                to={items.path}
+              >
+                {items.name}
               </Link>
             </ListItem>
           );

@@ -28,10 +28,17 @@ const themes = {
       h2: {
         fontFamily: "Outfit",
       },
+
       ".Container": {
         maxWidth: "1040px",
         marginLeft: "auto",
         marginRight: "auto",
+      },
+      p: {
+        fontSize: "1.2rem",
+        lineHeight: "revert",
+        wordSpacing: "3px",
+        letterSpacing: "0.1px",
       },
     }),
   },

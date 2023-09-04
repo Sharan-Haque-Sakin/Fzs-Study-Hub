@@ -31,6 +31,9 @@ export default function Home() {
           <img src={finish} alt="Finish Image" style={{ width: "13rem" }} />
         </Flex>
 
+        <h2 style={{ marginTop: "5rem" }}>
+          Here are some suggetions for you:-
+        </h2>
         <SecondPart />
         <Suggestions title="English 1st Paper" />
       </Box>

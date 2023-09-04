@@ -13,6 +13,9 @@
         "name": "A wedding ceremony you have attended",
         "path": "/aweddingceremonyyouhaveattended"
       }
+    ],
+    "Compositons": [
+      { "name": "Corruption: The invincible Monster", "path": "/corruption" }
     ]
   }
 }

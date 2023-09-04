@@ -12,6 +12,7 @@ import Google from "./Data/Paragraphs/Google";
 import { MobileNav } from "./Components/MobileNav";
 import ImpOfFb from "./Data/Paragraphs/ImpOfFb";
 import AWddingCeremony from "./Data/Paragraphs/aWeddingCere";
+import Corruption from "./Data/Paragraphs/Corruption";
 function App() {
   const [isSmallScreen] = useMediaQuery("(max-width: 768px)");
   return (
@@ -32,6 +33,7 @@ function App() {
 
           <Route path="/impactsoffb" element={<ImpOfFb />} />
 
+          <Route path="/corruption" element={<Corruption />} />
           <Route
             path="/aweddingceremonyyouhaveattended"
             element={<AWddingCeremony />}
